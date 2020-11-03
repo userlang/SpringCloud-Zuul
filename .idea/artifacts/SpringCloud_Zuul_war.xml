@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringCloud-Zuul:war">
+    <output-path>$PROJECT_DIR$/SpringCloud-Zuul/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringCloud-Zuul</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringCloud-Zuul-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SpringCloud-Zuul:war exploded" />
+    </root>
+  </artifact>
+</component>
